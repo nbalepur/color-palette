@@ -1,0 +1,62 @@
+.left-float {
+  float: left;
+}
+
+.lock-button {
+  height: 40px;
+  width: auto;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.delete-button {
+  height: 40px;
+  width: auto;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.edit-button {
+  height: 40px;
+  width: auto;
+  margin-top: 75%;
+}
+
+.accept-decline-buttons {
+  height: 40px;
+  width: auto;
+  margin-top: 75%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.add-button {
+  position: absolute;
+  top: 33%;
+  margin-left: 10px;
+  height: 40px;
+  width: auto;
+}
+
+.random-button {
+  width: 150px;
+  height: 50px;
+}
+
+.color-square {
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-top: 5px;
+  border-bottom: 5px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
