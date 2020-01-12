@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/color-palette/static/css/main.1993c3c9.chunk.css",
+    "main.js": "/color-palette/static/js/main.0ea5eeb7.chunk.js",
+    "main.js.map": "/color-palette/static/js/main.0ea5eeb7.chunk.js.map",
+    "runtime-main.js": "/color-palette/static/js/runtime-main.31ab8366.js",
+    "runtime-main.js.map": "/color-palette/static/js/runtime-main.31ab8366.js.map",
+    "static/js/2.562fb5c6.chunk.js": "/color-palette/static/js/2.562fb5c6.chunk.js",
+    "static/js/2.562fb5c6.chunk.js.map": "/color-palette/static/js/2.562fb5c6.chunk.js.map",
+    "index.html": "/color-palette/index.html",
+    "precache-manifest.4c6ec600a31e748c2bd3d7c3e6849c26.js": "/color-palette/precache-manifest.4c6ec600a31e748c2bd3d7c3e6849c26.js",
+    "service-worker.js": "/color-palette/service-worker.js",
+    "static/css/main.1993c3c9.chunk.css.map": "/color-palette/static/css/main.1993c3c9.chunk.css.map",
+    "static/js/2.562fb5c6.chunk.js.LICENSE": "/color-palette/static/js/2.562fb5c6.chunk.js.LICENSE",
+    "static/media/acceptButton.png": "/color-palette/static/media/acceptButton.f6cf01c6.png",
+    "static/media/addButton.png": "/color-palette/static/media/addButton.a62c3f55.png",
+    "static/media/declineButton.png": "/color-palette/static/media/declineButton.6fed4414.png",
+    "static/media/deleteButton.png": "/color-palette/static/media/deleteButton.0535b675.png",
+    "static/media/editButton.png": "/color-palette/static/media/editButton.6e16b9c4.png",
+    "static/media/lock-locked.png": "/color-palette/static/media/lock-locked.b1bb5f0e.png",
+    "static/media/lock-unlocked.png": "/color-palette/static/media/lock-unlocked.0457ecd3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31ab8366.js",
+    "static/js/2.562fb5c6.chunk.js",
+    "static/css/main.1993c3c9.chunk.css",
+    "static/js/main.0ea5eeb7.chunk.js"
+  ]
+}
