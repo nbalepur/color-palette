@@ -2,6 +2,26 @@
   float: left;
 }
 
+.color-text {
+  z-index: 2;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  font-size: 30px;
+  width: 100%;
+  height: 26px;
+  padding: 0;
+  margin: 0;
+  margin-top: -13px; /* 1/2 height */
+  text-align: center;
+}
+
+.color-picker {
+  position: absolute;
+  z-index: 10;
+}
+
 .lock-button {
   height: 40px;
   width: auto;
@@ -21,20 +41,28 @@
 .edit-button {
   height: 40px;
   width: auto;
-  margin-top: 75%;
+}
+
+.left-arrow {
+  height: 40px;
+  width: auto;
+}
+
+.right-arrow {
+  height: 40px;
+  width: auto;
 }
 
 .accept-decline-buttons {
   height: 40px;
   width: auto;
-  margin-top: 75%;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .add-button {
   position: absolute;
-  top: 33%;
+  top: 40%;
   margin-left: 10px;
   height: 40px;
   width: auto;
@@ -43,20 +71,18 @@
 .random-button {
   width: 150px;
   height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .color-square {
   text-align: center;
-  border-style: solid;
-  border-color: white;
-  border-top: 5px;
-  border-bottom: 5px;
-  border-left: 0px;
-  border-right: 0px;
+  position: relative;
 }
 
 .helper {
   display: inline-block;
-  height: 100%;
+  height: 90%;
   vertical-align: middle;
 }

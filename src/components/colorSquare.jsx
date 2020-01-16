@@ -1,20 +1,18 @@
 import React, { Component } from "react";
-import { SketchPicker } from "react-color";
 //various button images
 import editBtnImage from "./images/editButton.png";
-import acceptBtnImage from "./images/acceptButton.png";
-import declineBtnImage from "./images/declineButton.png";
 import lockLockedImage from "./images/lock-locked.png";
 import lockUnlockedImage from "./images/lock-unlocked.png";
 import deleteBtnImage from "./images/deleteButton.png";
-
-import "./gridStyling.css";
+import rightBtnImage from "./images/rightArrow.png";
+import leftBtnImage from "./images/leftArrow.png";
+//style sheet
+import "./styles/gridStyling.css";
 
 class ColorSquare extends Component {
-  handleChange = (color, event) => {
-    this.props.handleChange(color, this.props.colorSquare);
-  };
+  //helper method that calls handleChange in colorGrid component
 
+  //changes lock image based on isLocked property
   setLockImage = () => {
     if (this.props.colorSquare.isLocked) {
       return lockLockedImage;
@@ -24,17 +22,11 @@ class ColorSquare extends Component {
   };
 
   render() {
+    console.log(this.props.gridLength);
     return (
       <div class="left-float">
         <div class="color-square" style={this.props.colorSquare.squareStyle}>
-          {!this.props.colorSquare.showAcceptDecline && (
-            <img
-              class="edit-button"
-              src={editBtnImage}
-              alt={"edit button"}
-              onClick={() => this.props.openColorPicker(this.props.colorSquare)}
-            ></img>
-          )}
+          <span class="helper"></span>
           <img
             class="lock-button"
             src={this.setLockImage()}
@@ -47,33 +39,36 @@ class ColorSquare extends Component {
             alt={"delete button"}
             onClick={() => this.props.onDelete(this.props.colorSquare)}
           ></img>
-          {this.props.colorSquare.showAcceptDecline && (
+          {this.props.colorSquare.index !== 0 && (
             <img
-              class="accept-decline-buttons"
-              src={acceptBtnImage}
-              alt={"accept button"}
-              onClick={() => this.props.onAccept(this.props.colorSquare)}
+              class="left-arrow"
+              src={leftBtnImage}
+              alt={"left arrow"}
+              onClick={() =>
+                this.props.swapSquares(this.props.colorSquare, "left")
+              }
             ></img>
           )}
-          {this.props.colorSquare.showAcceptDecline && (
+          <img
+            class="edit-button"
+            src={editBtnImage}
+            alt={"edit button"}
+            onClick={() => this.props.openColorPicker(this.props.colorSquare)}
+          ></img>
+          {this.props.colorSquare.index !== this.props.gridLength - 1 && (
             <img
-              class="accept-decline-buttons"
-              src={declineBtnImage}
-              alt={"decline button"}
-              onClick={() => this.props.onDecline(this.props.colorSquare)}
+              class="right-arrow"
+              src={rightBtnImage}
+              alt={"right arrow"}
+              onClick={() =>
+                this.props.swapSquares(this.props.colorSquare, "right")
+              }
             ></img>
           )}
-          <h1>{this.props.colorSquare.squareStyle.backgroundColor}</h1>
+          <h1 class="color-text">
+            {this.props.colorSquare.squareStyle.backgroundColor}
+          </h1>
         </div>
-        {this.props.colorSquare.showPicker && (
-          <SketchPicker
-            disableAlpha={true}
-            presetColors={[]}
-            width={this.props.colorSquare.squareStyle.width - 20}
-            onChange={this.handleChange}
-            color={this.props.colorSquare.squareStyle.backgroundColor}
-          />
-        )}
       </div>
     );
   }
