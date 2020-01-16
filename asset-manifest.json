@@ -1,29 +1,34 @@
 {
   "files": {
-    "main.css": "/color-palette/static/css/main.1993c3c9.chunk.css",
-    "main.js": "/color-palette/static/js/main.0ea5eeb7.chunk.js",
-    "main.js.map": "/color-palette/static/js/main.0ea5eeb7.chunk.js.map",
+    "main.css": "/color-palette/static/css/main.3f6fc1f0.chunk.css",
+    "main.js": "/color-palette/static/js/main.7ce6250f.chunk.js",
+    "main.js.map": "/color-palette/static/js/main.7ce6250f.chunk.js.map",
     "runtime-main.js": "/color-palette/static/js/runtime-main.31ab8366.js",
     "runtime-main.js.map": "/color-palette/static/js/runtime-main.31ab8366.js.map",
-    "static/js/2.562fb5c6.chunk.js": "/color-palette/static/js/2.562fb5c6.chunk.js",
-    "static/js/2.562fb5c6.chunk.js.map": "/color-palette/static/js/2.562fb5c6.chunk.js.map",
+    "static/css/2.a7527a29.chunk.css": "/color-palette/static/css/2.a7527a29.chunk.css",
+    "static/js/2.e14a66ab.chunk.js": "/color-palette/static/js/2.e14a66ab.chunk.js",
+    "static/js/2.e14a66ab.chunk.js.map": "/color-palette/static/js/2.e14a66ab.chunk.js.map",
     "index.html": "/color-palette/index.html",
-    "precache-manifest.4c6ec600a31e748c2bd3d7c3e6849c26.js": "/color-palette/precache-manifest.4c6ec600a31e748c2bd3d7c3e6849c26.js",
+    "precache-manifest.dbc6caa5d664cbb9f6258b6e98d62e6d.js": "/color-palette/precache-manifest.dbc6caa5d664cbb9f6258b6e98d62e6d.js",
     "service-worker.js": "/color-palette/service-worker.js",
-    "static/css/main.1993c3c9.chunk.css.map": "/color-palette/static/css/main.1993c3c9.chunk.css.map",
-    "static/js/2.562fb5c6.chunk.js.LICENSE": "/color-palette/static/js/2.562fb5c6.chunk.js.LICENSE",
-    "static/media/acceptButton.png": "/color-palette/static/media/acceptButton.f6cf01c6.png",
+    "static/css/2.a7527a29.chunk.css.map": "/color-palette/static/css/2.a7527a29.chunk.css.map",
+    "static/css/main.3f6fc1f0.chunk.css.map": "/color-palette/static/css/main.3f6fc1f0.chunk.css.map",
+    "static/js/2.e14a66ab.chunk.js.LICENSE": "/color-palette/static/js/2.e14a66ab.chunk.js.LICENSE",
     "static/media/addButton.png": "/color-palette/static/media/addButton.a62c3f55.png",
-    "static/media/declineButton.png": "/color-palette/static/media/declineButton.6fed4414.png",
     "static/media/deleteButton.png": "/color-palette/static/media/deleteButton.0535b675.png",
     "static/media/editButton.png": "/color-palette/static/media/editButton.6e16b9c4.png",
+    "static/media/leftArrow.png": "/color-palette/static/media/leftArrow.3a0906f5.png",
     "static/media/lock-locked.png": "/color-palette/static/media/lock-locked.b1bb5f0e.png",
-    "static/media/lock-unlocked.png": "/color-palette/static/media/lock-unlocked.0457ecd3.png"
+    "static/media/lock-unlocked.png": "/color-palette/static/media/lock-unlocked.0457ecd3.png",
+    "static/media/rightArrow.png": "/color-palette/static/media/rightArrow.f46f84d7.png",
+    "static/media/starEmptyButton.png": "/color-palette/static/media/starEmptyButton.1c31a749.png",
+    "static/media/starFullButton.png": "/color-palette/static/media/starFullButton.3e5b61f7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.31ab8366.js",
-    "static/js/2.562fb5c6.chunk.js",
-    "static/css/main.1993c3c9.chunk.css",
-    "static/js/main.0ea5eeb7.chunk.js"
+    "static/css/2.a7527a29.chunk.css",
+    "static/js/2.e14a66ab.chunk.js",
+    "static/css/main.3f6fc1f0.chunk.css",
+    "static/js/main.7ce6250f.chunk.js"
   ]
 }
